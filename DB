@@ -1,0 +1,31 @@
+CREATE TABLE Users 
+( ID int NOT NULL AUTO_INCREMENT,
+Name varchar(255),
+Type varchar(30) );
+
+------
+
+INSERT INTO Users (Name , Type)
+VALUES ('Hossam' , 'employee'),
+('Beth' , 'manager'),
+('Bassam' , 'employee');
+
+------
+
+INSERT INTO Users (Name)
+VALUES ('Pam');
+
+SELECT TOP 2 * FROM Users
+WHERE NAME IN ('Hossam' , 'Beth' , 'Bassam')
+ORDER BY 
+(CASE
+WHEN Type='employee' THEN Name
+ELSE Type
+END) DESC;
+
+UPDATE Users
+SET Type='employee'
+WHERE NAME='Beth' OR Type IS NULL ;
+
+DELETE FROM Users
+WHERE NAME NOT LIKE '%am'  ;
