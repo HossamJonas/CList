@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FP-EMPLR Suite"  >
+<parameter name="browser" value="firefox" >  </parameter>
+
+  <test name="register Test" preserve-order="true" enabled ="false" >
+    <classes>	<class name="test.RgstrTest" /> 
+</classes>    </test> <!-- Test --> 
+ 
+    <test name="LoginContactTest" preserve-order="true"  enabled ="true">
+    <classes>
+    			<class name="test.loginTest" />
+    			<class name="test.helpTest"/>
+			</classes>    </test> 
+   <test name="ProfileContactTest" preserve-order="true"  enabled ="true">
+    <classes>
+    			   <class name="test.profileTest"/>
+    			   <class name="test.helpTest"/>
+	</classes>    
+ </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->

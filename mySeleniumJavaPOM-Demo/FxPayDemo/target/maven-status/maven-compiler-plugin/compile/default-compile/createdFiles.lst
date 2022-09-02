@@ -1,0 +1,14 @@
+pages\LoginPage.class
+pages\CartPage.class
+pages\EmailFrndPage.class
+pages\HomePage.class
+pages\PrdctPage.class
+pages\RegisterPage.class
+pages\FavrtsPage.class
+pages\ContactUsPage.class
+pages\ProfilePage.class
+pages\SrchPage.class
+pages\ComparePage.class
+pages\CheckoutPage.class
+pages\PageBase.class
+pages\RvwPrdctPage.class

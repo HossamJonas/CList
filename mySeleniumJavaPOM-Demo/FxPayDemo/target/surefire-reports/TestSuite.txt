@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 36.394 s <<< FAILURE! - in TestSuite
+ContactUsSucssfl(test.ContactUsTest)  Time elapsed: 0.226 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #FullName
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'LAPTOP-KKVPCLCR', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220808125904, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3288, moz:profile: C:\Users\HOSSAM~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 930a2bc2-511c-4200-962d-3fa996ee9925
+*** Element info: {Using=id, value=FullName}
+	at test.ContactUsTest.ContactUsSucssfl(ContactUsTest.java:17)
+

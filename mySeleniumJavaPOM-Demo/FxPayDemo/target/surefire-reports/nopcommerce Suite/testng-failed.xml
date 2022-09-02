@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [nopcommerce Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="regression Test(failed)" verbose="0">
+    <classes>
+      <class name="test.RgstrTest">
+        <methods>
+          <include name="loginSucssfl"/>
+          <include name="startDriver"/>
+          <include name="scrnshtOnFail"/>
+          <include name="rgstrSucssfl"/>
+          <include name="chngPswrdSucsfl"/>
+          <include name="closeDriver"/>
+          <include name="logoutSucssfl"/>
+        </methods>
+      </class> <!-- test.RgstrTest -->
+    </classes>
+  </test> <!-- regression Test(failed) -->
+</suite> <!-- Failed suite [nopcommerce Suite] -->
